@@ -1,0 +1,1 @@
+KiCad project - MCU datalogger
