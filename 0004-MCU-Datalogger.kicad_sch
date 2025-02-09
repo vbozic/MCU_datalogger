@@ -3751,6 +3751,28 @@
 		)
 		(uuid "0fed00fc-f036-48eb-98c8-2bb19403550a")
 	)
+	(label "Vcc"
+		(at 261.62 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1923248b-2c6c-41d0-b6e6-e66d7bd22f3d")
+		(property "Netclass" "Power"
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(label "D2"
 		(at 100.33 107.95 0)
 		(fields_autoplaced yes)
