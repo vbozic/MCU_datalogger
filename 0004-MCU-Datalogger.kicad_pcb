@@ -379,7 +379,7 @@
 		(uuid "22ef6db5-7b6f-4d02-b1e2-5acabb1c4d36")
 		(at 132.015 77.47)
 		(property "Reference" "U3"
-			(at -0.015 -3.332 0)
+			(at -2.515 -3.332 0)
 			(layer "F.SilkS")
 			(uuid "550fedda-8279-4a09-81a3-11dddb9a60a9")
 			(effects
@@ -1426,7 +1426,7 @@
 			(pintype "power_in")
 			(uuid "5cdb4c35-3aa0-4802-82a9-1cfc727f45e0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model "${KIPRJMOD}/DS1337S_/DS1337S+.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1434,7 +1434,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -3500,7 +3500,7 @@
 			(pintype "power_in")
 			(uuid "4b8af995-3989-4d10-a37e-3c1d7498147d")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model "${KIPRJMOD}/DS1337S_/DS1337S+.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3508,7 +3508,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -5973,6 +5973,17 @@
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
 			(uuid "e292512f-9716-4740-b1ca-77f99e767001")
+		)
+		(model "${KIPRJMOD}/ATMEGA328P-AU/ATMEGA328P-AU-3D.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
